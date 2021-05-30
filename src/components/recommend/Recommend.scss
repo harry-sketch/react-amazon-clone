@@ -1,0 +1,32 @@
+.recommend{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    padding:1rem;
+    margin-bottom:1rem;
+    border-radius: 0.2rem;
+}
+.inside__recommend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inside__recommend > Button{
+    background-image: linear-gradient(to top,#ffc42d,#ffd978);
+    color:#000 !important;
+    text-transform: capitalize;
+    border: 1px solid #ffc42d;
+    width:100%;
+    font-weight:700;
+    font-weight:1rem;
+    margin:0.3rem 0;
+    transition: all 300ms ease-out;
+}
+.inside__recommend >Button:hover{
+    background-image: linear-gradient(to top,#ffd978,#ffc42d);
+}
+.inside__recommend h6 span{
+    color:#0b3a82;
+}
